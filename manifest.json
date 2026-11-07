@@ -1,0 +1,101 @@
+{
+  "id": "gelu-inc-casa",
+  "name": "Casa",
+  "short_name": "Casa",
+  "description": "Pulizie, faccende, manutenzioni e lavori di casa, con promemoria e turni. Di Gelu Inc.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F1F4F7",
+  "theme_color": "#2C5F8D",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Cosa c'è da fare oggi",
+      "short_name": "Oggi",
+      "url": "./?azione=oggi",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Inizia le pulizie",
+      "short_name": "Pulizie",
+      "url": "./?azione=pulizie",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Nuova faccenda",
+      "short_name": "Faccenda",
+      "url": "./?azione=faccenda",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Manutenzioni",
+      "short_name": "Manutenzioni",
+      "url": "./?azione=manutenzioni",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Nuova nota",
+      "short_name": "Nota",
+      "url": "./?azione=nota",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
